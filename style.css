@@ -1,0 +1,57 @@
+body{
+ background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Money_Cash.jpg/1280px-Money_Cash.jpg");
+ }
+ 
+img {
+ border-radius: 10%;
+ border: 5px solid grey;
+ }
+ 
+h1 {
+ color: white
+
+ }
+ 
+#text {
+color: white
+ }
+ 
+#reviews {
+color: white
+}
+	.blink{
+		width:175px;
+		height: 50px;
+	    background-color: red;
+		padding: 15px;	
+		text-align: center;
+		line-height: 50px;
+		border-radius: 7%;
+		text-align: center;
+		display: table;
+		margin: 0 auto;
+	}
+	span{
+		font-size: 25px;
+		font-family: cursive;
+		color: white;
+		animation: blink 1s linear infinite;
+		display: table;
+		margin: 0 auto;
+	}
+@keyframes blink{
+0%{opacity: 0;}
+50%{opacity: .5;}
+100%{opacity: 1;}
+}
+#reviews{
+	background-color: hotpink;
+	border-radius:10%;
+	width: 500px;
+	height: 400px;
+	display: table;
+	margin: 0 auto;
+	
+}
+ 
+ 
